@@ -1,0 +1,531 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  width: 100%;
+  background-image: url(../images/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.header .container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header .container .header_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .header_top .header_logo h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding-top: 46px;
+}
+
+.header .container .header_top .header_login {
+  padding-top: 46px;
+}
+
+.header .container .header_top .header_login a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding: 9px 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.header .container .header_top .header_login a:hover {
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.header .container .header_botom {
+  margin-top: 153px;
+  text-align: center;
+}
+
+.header .container .header_botom h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 52px;
+  color: white;
+  width: 470px;
+  margin: 0 auto;
+}
+
+.header .container .header_botom p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: white;
+  padding-top: 29px;
+  padding-bottom: 45px;
+}
+
+.header .container .header_botom a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 19px;
+  background-color: #FF4E50;
+  border-radius: 25px;
+}
+
+.header .container .header_botom a:hover {
+  background-color: #312f2d;
+}
+
+.main .container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.main .container .how_works h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #444444;
+  text-align: center;
+  margin-top: 89px;
+  margin-bottom: 35px;
+}
+
+.main .container .how_works .how_works_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .container .meet_partner {
+  text-align: center;
+  margin-bottom: 95px;
+}
+
+.main .container .meet_partner h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #444444;
+  text-align: center;
+  margin-top: 89px;
+  margin-bottom: 35px;
+}
+
+.main .container .meet_partner .meet_partner_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 46px;
+}
+
+.main .container .meet_partner a {
+  padding: 12px 20px;
+  border: 2px solid #FF4E50;
+  border-radius: 25px;
+  color: #FF4E50;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.main .container .meet_partner a:hover {
+  background-color: #FF4E50;
+  color: white;
+}
+
+.main .container .discover_holiday h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #444444;
+  text-align: center;
+  margin-top: 106px;
+  margin-bottom: 35px;
+}
+
+.main .container .discover_holiday .holiday_photo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.main .container .discover_holiday .holiday_photo a:hover {
+  opacity: 70%;
+}
+
+.main .container .holiday_search h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #444444;
+  text-align: center;
+  margin-top: 106px;
+  margin-bottom: 43px;
+}
+
+.main .container .holiday_search p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #444444;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.main .container .holiday_search .holiday_form {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.main .container .holiday_search .holiday_form .search_form {
+  width: 300px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-left: 14px;
+  border: 1px solid #D4D4D4;
+  margin-right: 10px;
+}
+
+.main .container .holiday_search .holiday_form a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  background-color: #FF4E50;
+  border-radius: 25px;
+}
+
+.footer {
+  border-top: 2px solid #FF4E50;
+}
+
+.footer .container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.footer .container .footer_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container .footer_inner .footer_col1 {
+  margin-top: 36px;
+}
+
+.footer .container .footer_inner .footer_col1 h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FF4E50;
+}
+
+.footer .container .footer_inner .footer_col2 {
+  margin-top: 40px;
+}
+
+.footer .container .footer_inner .footer_col2 a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #444444;
+  text-decoration: none;
+}
+
+.footer .container .footer_inner .footer_col2 .footer_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 36px;
+}
+
+.footer .container .footer_inner .footer_col2 .footer_nav a {
+  color: #999999;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.footer .container .footer_inner .footer_col2 .footer_nav a:hover {
+  color: #FF4E50;
+}
+
+.footer .container .footer_inner .footer_col3 {
+  margin-top: 40px;
+}
+
+.footer .container .footer_inner .footer_col3 a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #444444;
+  text-decoration: none;
+}
+
+.footer .container .footer_inner .footer_col4 {
+  margin-top: 40px;
+}
+
+.footer .container .footer_inner .footer_col4 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  color: #CCCCCC;
+  margin-bottom: 7px;
+  padding-left: 35px;
+}
+
+@media screen and (max-width: 900px) {
+  .header .container {
+    max-width: 748px;
+  }
+  .main .container {
+    max-width: 748px;
+  }
+  .main .container .how_works h4 {
+    font-size: 22px;
+  }
+  .main .container .how_works .how_works_inner img {
+    max-width: 236px;
+  }
+  .main .container .meet_partner h4 {
+    font-size: 22px;
+  }
+  .main .container .meet_partner .meet_partner_inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 492px;
+    margin: 0 auto;
+  }
+  .main .container .meet_partner .meet_partner_inner img {
+    width: 236px;
+    margin-bottom: 52px;
+  }
+  .main .container .discover_holiday h4 {
+    font-size: 22px;
+  }
+  .main .container .discover_holiday .holiday_photo {
+    max-width: 748px;
+  }
+  .main .container .discover_holiday .holiday_photo .holiday_photo2 {
+    max-width: 492px;
+  }
+  .main .container .discover_holiday .holiday_photo img {
+    max-width: 236px;
+  }
+  .main .container .holiday_search h4 {
+    font-size: 22px;
+  }
+  .footer .container {
+    max-width: 748px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .header {
+    background-position: center;
+  }
+  .header .container {
+    max-width: 320px;
+    text-align: center;
+  }
+  .header .container .header_top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 280px;
+    margin-left: 20px;
+    margin-bottom: -120px;
+  }
+  .header .container .header_top .header_logo {
+    margin-top: 90px;
+  }
+  .header .container .header_botom h4 {
+    font-size: 30px;
+    width: 280px;
+  }
+  .header .container .header_botom p {
+    font-size: 18px;
+    width: 280px;
+  }
+  .main .container {
+    max-width: 320px;
+  }
+  .main .container .how_works .how_works_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main .container .how_works .how_works_inner img {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .main .container .meet_partner .meet_partner_inner {
+    max-width: 236px;
+  }
+  .main .container .discover_holiday .holiday_photo {
+    max-width: 300px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 0;
+    margin: 0 auto;
+  }
+  .main .container .discover_holiday .holiday_photo img {
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  .main .container .discover_holiday .holiday_photo .holiday_photo2 {
+    max-width: 300px;
+  }
+  .main .container .holiday_search {
+    text-align: center;
+  }
+  .main .container .holiday_search h4 {
+    max-width: 280px;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  .main .container .holiday_search p {
+    max-width: 280px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .main .container .holiday_search .holiday_form .search_form {
+    max-width: 280px;
+    margin-bottom: 30px;
+  }
+  .main .container .holiday_search .holiday_form a {
+    padding: 12px 80px;
+  }
+  .footer .container {
+    max-width: 320px;
+  }
+  .footer .container .footer_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .footer .container .footer_inner .footer_col2 {
+    margin-top: 20px;
+  }
+  .footer .container .footer_inner .footer_col2 .footer_nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 280px;
+    margin-left: 35px;
+  }
+  .footer .container .footer_inner .footer_col2 .footer_nav a {
+    padding-right: 35px;
+  }
+  .footer .container .footer_inner .footer_col3 {
+    margin-top: -20px;
+  }
+  .footer .container .footer_inner .footer_col4 {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

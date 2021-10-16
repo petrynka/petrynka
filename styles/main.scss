@@ -1,0 +1,531 @@
+@import 'base/reset';
+@import 'base/varables';
+
+.header{
+    width: 100%;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+    .container{
+        width: 100%;
+        max-width: 940px;
+        margin: 0 auto;
+
+        .header_top{
+            display: flex;
+            justify-content: space-between;
+
+            .header_logo{
+                h3{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 20px;
+                    color: $main-color;
+                    padding-top: 46px;
+                }
+            }
+
+            .header_login{
+                padding-top: 46px;
+
+                a{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-align: center;
+                    padding: 9px 18px;
+                    color: $main-color;
+                    text-decoration: none;
+                    
+
+                    &:hover{
+                        border: 2px solid $main-color;
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+
+        .header_botom{
+            margin-top: 153px;
+            text-align: center;
+
+            h4{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-size: 52px;
+                color: $main-color;
+                width: 470px;
+                margin: 0 auto;
+            }
+
+            p{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 24px;
+                color: $main-color;
+                padding-top: 29px;
+                padding-bottom: 45px;
+            }
+
+            a{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                color: $main-color;
+                text-decoration: none;
+                padding: 12px 19px;
+                background-color: $btn_color;
+                border-radius: 25px;
+
+                &:hover{
+                    background-color: rgb(49, 47, 45)
+                }
+            }
+           
+        }
+
+    }
+}
+
+// _____________ MAIN----------------
+
+.main{
+    .container{
+        width: 100%;
+        max-width: 940px;
+        margin: 0 auto;
+
+        .how_works{
+            h4{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-size: 26px;
+                color: $secondary-color;
+                text-align: center;
+                margin-top: 89px;
+                margin-bottom: 35px;
+            }
+
+            .how_works_inner{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .meet_partner{
+            text-align: center;
+            margin-bottom: 95px;
+
+            h4{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-size: 26px;
+                color: $secondary-color;
+                text-align: center;
+                margin-top: 89px;
+                margin-bottom: 35px;
+            }
+
+            .meet_partner_inner{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 46px;
+            }
+
+            a{
+                padding: 12px 20px;
+                border: 2px solid $btn_color;
+                border-radius: 25px;
+                color: $btn_color;
+                text-decoration: none;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                
+                &:hover{
+                    background-color: $btn_color;
+                    color: white;
+                }
+            }
+        }
+
+        .discover_holiday{
+            h4{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-size: 26px;
+                color: $secondary-color;
+                text-align: center;
+                margin-top: 106px;
+                margin-bottom: 35px;
+            }
+
+            .holiday_photo{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+                a{
+                    &:hover{
+                        opacity: 70%;
+                    }
+                }
+            }
+        }
+
+        .holiday_search{
+            h4{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-size: 26px;
+                color: $secondary-color;
+                text-align: center;
+                margin-top: 106px;
+                margin-bottom: 43px;
+            }
+
+            p{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 18px;
+                color: $secondary-color;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+
+            .holiday_form{
+                margin: 0 auto;
+                text-align: center;
+                margin-bottom: 100px;
+
+                .search_form{
+                    width: 300px;
+                    height: 40px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    font-size: 14px;
+                    padding-left: 14px;
+                    border: 1px solid #D4D4D4;
+                    margin-right: 10px;
+                }
+
+                a{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: $main-color;
+                    text-decoration: none;
+                    padding: 12px 25px;
+                    background-color: $btn_color;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+}
+
+// ----------------------- FOOTER //////////////////////////
+
+.footer{
+    border-top: 2px solid $btn_color;
+
+    .container{
+        width: 100%;
+        max-width: 940px;
+        margin: 0 auto;
+
+        .footer_inner{
+            display: flex;
+            justify-content: space-between;
+
+            .footer_col1{
+                margin-top: 36px;
+    
+                h4{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: $btn_color;
+                }
+            }
+
+            .footer_col2{
+                margin-top: 40px;
+
+                a{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: $secondary-color;
+                    text-decoration: none;
+                }
+
+                .footer_nav{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 36px;
+                    a{
+                        color: #999999;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: bold;
+                        font-size: 14px;
+                        padding-top: 10px;
+
+                        &:hover{
+                            color: $btn_color;
+                        }
+                    }
+                }
+            }
+
+            .footer_col3{
+                margin-top: 40px;
+
+                a{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: $secondary-color;
+                    text-decoration: none;
+                }
+
+            }
+
+            .footer_col4{
+                margin-top: 40px;
+
+                p{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 10px;
+                    color: #CCCCCC;
+                    margin-bottom: 7px;
+                    padding-left: 35px;
+                }
+            }
+        }
+    }
+
+
+}
+
+// ============ MEDIA--------------
+
+@media  screen and (max-width:900px) {
+    .header{
+        .container{
+            max-width: 748px;
+        }
+    }
+
+    .main{
+        .container{
+            max-width: 748px;
+            .how_works{
+                h4{
+                    font-size: 22px;
+                }
+                .how_works_inner{
+                    img{
+                        max-width: 236px;
+                    }
+                }
+            }
+
+            .meet_partner{
+                h4{
+                    font-size: 22px;
+                }
+
+                .meet_partner_inner{
+                    flex-wrap: wrap;
+                    width: 492px;
+                    margin: 0 auto;
+                    img{
+                        width: 236px;
+                        margin-bottom: 52px;
+                    }
+                }
+            }
+
+            .discover_holiday{
+                h4{
+                    font-size: 22px;
+                }
+
+                .holiday_photo{
+                    max-width: 748px;
+
+                    .holiday_photo2{
+                        max-width: 492px;
+                    }
+
+                    img{
+                        max-width: 236px;
+                    }
+                }
+            }
+
+            .holiday_search{
+                h4{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        .container{
+            max-width: 748px;
+        }
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .header{
+        background-position: center;
+
+        .container{
+            max-width: 320px;
+            text-align: center;
+
+            .header_top{
+                flex-direction: column-reverse;
+                width: 280px;
+                margin-left: 20px;
+                margin-bottom: -120px;
+
+                .header_logo{
+                    margin-top: 90px;
+                }
+            }
+
+            .header_botom{
+
+                h4{
+                    font-size: 30px;
+                    width: 280px;
+                }
+
+                p{
+                    font-size: 18px;
+                    width: 280px;
+                }
+            }
+        }
+    }
+
+    .main{
+        .container{
+            max-width: 320px;
+
+            .how_works{
+                .how_works_inner{
+                    display: flex;
+                    flex-wrap: wrap;
+                    
+
+                    img{
+                        max-width: 300px;
+                        margin: 0 auto;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            .meet_partner{
+
+                .meet_partner_inner{
+                    max-width: 236px;
+                }
+            }
+
+            .discover_holiday{
+                .holiday_photo{
+                    max-width: 300px;
+                    flex-wrap: wrap;
+                    margin-bottom: 0;
+                    margin: 0 auto;
+
+                    img{
+                        max-width: 300px;
+                        margin-bottom: 10px;
+                    }
+
+                    .holiday_photo2{
+                    max-width: 300px;
+                    }
+                }
+            }
+
+            .holiday_search{
+                
+                text-align: center;
+                h4{
+                    max-width: 280px;
+                    margin: 0 auto;
+                    margin-top: 35px;
+                }
+
+                p{
+                    max-width: 280px;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                }
+
+                .holiday_form{
+                    .search_form{
+                        max-width: 280px;
+                        margin-bottom: 30px;
+                    }
+
+                    a{
+                        padding: 12px 80px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        .container{
+            max-width: 320px;
+
+            .footer_inner{
+                flex-direction: column;
+                text-align: center;
+
+                .footer_col2{
+                    margin-top: 20px;
+                    .footer_nav{
+                        flex-direction: row;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        width: 280px;
+                        margin-left: 35px;
+                       
+                        a{
+                            padding-right: 35px;
+                        }
+                    }
+                }
+
+                .footer_col3{
+                    margin-top:-20px;
+                }
+
+                .footer_col4{
+                    margin-top: 20px;
+                    
+                }
+            }
+
+        }
+    }
+}
